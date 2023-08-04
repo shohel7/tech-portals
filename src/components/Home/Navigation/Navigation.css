@@ -1,0 +1,33 @@
+.nav-link {
+  font-size: 1.1rem;
+  color: black;
+}
+.nav-link:hover {
+  color: red;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.8rem;
+}
+.login-btn {
+  border: 1px solid gray;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.login-btn:hover {
+  background-color: rgb(245, 199, 199);
+  color: red;
+  border: 1px solid red;
+}
+
+.signup-btn {
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.signup-btn:hover {
+  background: red;
+  color: white;
+  border-color: none;
+}

@@ -1,0 +1,56 @@
+.input-email {
+  width: 65%;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.input-email:hover {
+  border: 1px solid red;
+}
+.input-email:focus {
+  outline: none;
+}
+
+.contact-btn {
+  background: black;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.contact-btn:hover {
+  background: red;
+  color: white;
+  border-color: none;
+}
+.contact-btn:focus {
+  outline: none;
+}
+.signin-btn {
+  border: 1px solid gray;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 8px 18px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.signin-btn:hover {
+  background-color: rgb(238, 200, 200);
+  border: 1px solid red;
+  color: red;
+}
+
+@media (max-width: 767.98px) {
+  .input-email {
+    width: 100%;
+  }
+  .contact-btn {
+    width: 100%;
+  }
+  .signin-btn {
+    width: 100%;
+  }
+}

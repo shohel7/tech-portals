@@ -1,0 +1,27 @@
+.tech-card {
+  background-color: #142fcd;
+  width: 30%;
+  color: white;
+}
+.match-card {
+  background-color: #f0591c;
+  width: 30%;
+  color: white;
+}
+.startup-card {
+  background-color: #0c7134;
+  width: 30%;
+  color: white;
+}
+
+@media (max-width: 767.98px) {
+  .tech-card {
+    width: 100%;
+  }
+  .match-card {
+    width: 100%;
+  }
+  .startup-card {
+    width: 100%;
+  }
+}

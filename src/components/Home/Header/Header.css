@@ -1,0 +1,89 @@
+.header-container {
+  height: 600px;
+}
+.header-left {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-heading {
+  font-size: 5rem;
+}
+.primary-btn {
+  background-color: black;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 8px 18px;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.3s;
+}
+
+.primary-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.secondary-btn {
+  border: 1px solid gray;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 8px 18px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.secondary-btn:hover {
+  background-color: rgb(238, 200, 200);
+  border: 1px solid red;
+  color: red;
+}
+
+.circle-shape {
+  background: blue;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+}
+.rounded-shape {
+  background-color: #f595a5;
+  border-radius: 20px;
+}
+.rounded-shape2 {
+  background-color: red;
+  border-radius: 20px;
+  height: 130px;
+}
+.word-shape {
+  font-weight: bold;
+  height: 130px;
+  width: 215px;
+  border: 3px dotted green;
+  border-radius: 20px;
+}
+
+.rounded-shape3 {
+  background-color: #f4c63d;
+  border-radius: 100px;
+  height: 130px;
+}
+.circle-shape2 {
+  background: #229651;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+}
+
+@media (max-width: 767.98px) {
+  .header-heading {
+    font-size: 2rem;
+  }
+  .header-container {
+    margin-top: 50px;
+    margin-bottom: 200px;
+  }
+  .word-shape {
+    width: 200px;
+  }
+}
